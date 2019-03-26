@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-xs-8"><h3> Post : {{ title}}</h3></div>
       <div class="col-xs-4">
-        <h6 class="date">{{created_date }}</h6>
+        <h6 class="date">{{created_date | date:'d/M/yyyy, h: mm: ss a' | uppercase }}</h6>
       </div>
     </div>
     <div claa="row">
