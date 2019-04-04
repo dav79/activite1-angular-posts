@@ -41,7 +41,13 @@ button{
   width:100px;
 }
 
-
+input{
+  /*background-color:black;
+  color:coral;*/
+  background-color:white;
+  color:red;
+  font-weight: bold;
+}
 
 @media (min-width: 768px) {
   .container {
